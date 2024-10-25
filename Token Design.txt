@@ -1,0 +1,11 @@
+Token Design - Amber Token
+
+1 => initial supply (send to owner) - 70,000,000 AMB
+2 => max supply(capped) - 100,000,000 (100 million AMB)
+3 => make token burnable
+
+blockReward (rewarding token to miners)
+1 => _beforeTokenTransfer()
+2 => _mintMinerReward()
+
+Amber Token deployed at Polygon Amoy:  0x168A6159dF3dEaD4cE3AB022E8aC731746D9c60F
